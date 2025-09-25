@@ -14,8 +14,13 @@ Print the pruduct.*/
 
 #include<stdio.h>
 
-int main(){
+int main() {
 
+ long X = 1;
 
-
+ for(int i = 1; i <= 10; i++){
+  X = i * X;
+  printf("the product is %ld after multiplying by %d\n", X, i);}
+  
+return 0;
 }
